@@ -1,0 +1,44 @@
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+#box1 {
+    background-color: mediumvioletred;
+    transition: width 1s;
+}
+
+#box1:hover {
+    width: 300px;
+}
+
+#box2 {
+    background-color: darkgoldenrod;
+    transition: height 1s;
+}
+
+#box2:hover {
+    height: 300px;
+}
+
+#box3 {
+    background-color: brown;
+    transition: height 1s, width 1s;
+}
+
+#box3:hover {
+    height: 300px;
+    width: 300px;
+}
+
+#box4 {
+    background-color: brown;
+    transition: height 1s, width 1s, background-color 1s;
+}
+
+#box4:hover {
+    height: 300px;
+    width: 300px;
+    background-color: burlywood;
+}

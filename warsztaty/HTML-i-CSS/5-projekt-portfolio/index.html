@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Front End Developer</h1>
+        <hr>
+        <p>HTML <i class="fas fa-circle"></i> CSS <i class="fas fa-circle"></i> JavaScript</p>
+        <button>Dowiedz się więcej</button>
+    </header>
+
+    <nav class="main-navigation">
+        <input id="check" type="checkbox" name="menu">
+        <label for="check">MENU</label>
+        <ul class="menu-list">
+            <li><a href="#about">O mnie</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>O mnie</h2>
+        <hr>
+        <img src="img/about.jpg" alt="Moje zdjęcie" id="about-img">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque corporis, in, totam modi necessitatibus officiis accusantium quod quis neque perferendis nisi. Ratione dolores, eum necessitatibus saepe quasi voluptatum mollitia omnis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt amet dolores repudiandae unde quas doloremque facere dolorem temporibus ipsam totam, veritatis dolor tenetur, explicabo deserunt. Quod maiores quos recusandae quo.</p>
+
+        <button id="to-portfolio">Moje Portfolio</button>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <hr>
+        <div class="photos">
+            <div class="container">
+                <img class="portfolio-img" src="img/portfolio/photo-1.jpg" alt="Moje portfolio">
+                <div class="overlay">
+                    <div class="text">Projekt</div>
+                </div>
+            </div>
+            <div class="container">
+                <img class="portfolio-img" src="img/portfolio/photo-2.jpg" alt="Moje portfolio">
+                <div class="overlay">
+                    <div class="text">Projekt</div>
+                </div>
+            </div>
+            <div class="container">
+                <img class="portfolio-img" src="img/portfolio/photo-3.jpg" alt="Moje portfolio">
+                <div class="overlay">
+                    <div class="text">Projekt</div>
+                </div>
+            </div>
+            <div class="container">
+                <img class="portfolio-img" src="img/portfolio/photo-4.jpg" alt="Moje portfolio">
+                <div class="overlay">
+                    <div class="text">Projekt</div>
+                </div>
+            </div>
+            <div class="container">
+                <img class="portfolio-img" src="img/portfolio/photo-5.jpg" alt="Moje portfolio">
+                <div class="overlay">
+                    <div class="text">Projekt</div>
+                </div>
+            </div>
+            <div class="container">
+                <img class="portfolio-img" src="img/portfolio/photo-6.jpg" alt="Moje portfolio">
+                <div class="overlay">
+                    <div class="text">Projekt</div>
+                </div>
+            </div>
+            <div class="container">
+                <img class="portfolio-img" src="img/portfolio/photo-7.jpg" alt="Moje portfolio">
+                <div class="overlay">
+                    <div class="text">Projekt</div>
+                </div>
+            </div>
+            <div class="container">
+                <img class="portfolio-img" src="img/portfolio/photo-8.jpg" alt="Moje portfolio">
+                <div class="overlay">
+                    <div class="text">Projekt</div>
+                </div>
+            </div>
+            <div class="container">
+                <img class="portfolio-img" src="img/portfolio/photo-9.jpg" alt="Moje portfolio">
+                <div class="overlay">
+                    <div class="text">Projekt</div>
+                </div>
+            </div>
+            <div class="container">
+                <img class="portfolio-img" src="img/portfolio/photo-10.jpg" alt="Moje portfolio">
+                <div class="overlay">
+                    <div class="text">Projekt</div>
+                </div>
+            </div>
+            <div class="container">
+                <img class="portfolio-img" src="img/portfolio/photo-11.jpg" alt="Moje portfolio">
+                <div class="overlay">
+                    <div class="text">Projekt</div>
+                </div>
+            </div>
+
+            <div class="container">
+                <img class="portfolio-img" src="img/portfolio/photo-12.jpg" alt="Moje portfolio">
+                <div class="overlay">
+                    <div class="text">Projekt</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2>Kontakt</h2>
+        <hr>
+        <form>
+            <input type="text" id="name" name="name" placeholder="Imię">
+            <input type="email" id="email" placeholder="Email"><br>
+            <textarea id="mail" name="mail" placeholder="Wiadomość"></textarea><br>
+
+            <input type="submit" value="Wyślij wiadomość">
+        </form>
+
+        <div class="awsome">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+
+        <p class="copyright">Copyright © Akademia 108 - Szkoła Programowania</p>
+
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

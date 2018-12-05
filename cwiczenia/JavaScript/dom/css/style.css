@@ -1,0 +1,16 @@
+#main-header {
+    transition: all 2s linear;
+}
+
+#container {
+    background-color: rgb(180, 112, 10);
+}
+
+.even {
+    background-color: darkgray;
+}
+
+span {
+    padding: 0 20px;
+    border-right: 1px solid red;
+}

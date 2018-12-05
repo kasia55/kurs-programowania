@@ -1,0 +1,238 @@
+/*
+Kolory czcionek:
+ciemnoszary (buttony, h2, tekst w header) - #333;
+jasnoszary (tekst w sekcji "O mnie", ikony social na hover) - #777;
+niebieski - #007bff;
+Kolory tła:
+szary - #f2f1ed;
+niebieski - #007bff; 
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans';
+    text-align: center;
+}
+
+header {
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin-top: 0;
+    color: #007bff;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+hr {
+    border: 0.5px solid #007bff;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+i.fas {
+    color: #007bff;
+    font-size: 5px;
+    vertical-align: middle;
+    width: auto;
+}
+
+button,
+input[type="submit"] {
+    align-self: center;
+    width: auto;
+    background-color: #f2f1ed;
+    border: 1px solid #007bff;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+nav {
+    margin-top: 0;
+    background-color: #007bff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav input, label {
+    display: none;
+}
+
+nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+/*    margin: 0 15px;*/
+}
+
+nav a:hover, li:hover {
+    background-color: #fff;
+    color: #007bff;
+}
+
+a {
+    color: #f2f1ed;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+}
+
+section#about {
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+section#about p {
+    width: 80%;
+    margin: 50px auto;
+}
+
+section#portfolio {
+    background-color: #f2f1ed;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 3vh;
+    padding-top: 10vh;
+}
+
+#about-img {
+    border-radius: 50%;
+}
+
+.photos {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.photos>* {
+        flex: 1 1 25%;
+    }
+
+.container {
+    display: inline-block;
+    position: relative;
+}
+
+.portfolio-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.container:hover .overlay {
+    opacity: 0.8;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+section#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+form input {
+    width: 48%;
+    height: 2.5em;
+    padding: 0 10px;
+    margin: 0.5em 0;
+}
+
+input[type="text"] {
+    margin-right: 3%;
+}
+
+form textarea {
+    width: 99%;
+    height: 6em;
+    margin-top: 2vh;
+    padding: 10px;
+
+}
+
+input[type="submit"] {
+    width: auto;
+    background-color: #fff;
+    padding-bottom: 30px;
+    margin-top: 1vh;
+    vertical-align: middle;
+}
+
+div.awsome {
+    font-size: 30px;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+i.fab {
+    margin: 0 20px;
+    color: #007bff;
+}
+
+i.fab:hover {
+    color: #777;
+    transition: .5s ease;
+}
+
+.copyright {
+    padding: 1em 0;
+    background-color: #777;
+    margin-top: 10vh;
+    margin-bottom: 0;
+}

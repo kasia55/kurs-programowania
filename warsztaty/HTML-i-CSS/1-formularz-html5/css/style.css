@@ -1,0 +1,59 @@
+form {
+    background-color: #213b50;
+    padding: 20px;
+    color: #ffffff;
+    width: 50%;
+}
+
+form input, select {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+}
+
+form textarea, input, select {
+    background-color: #2b4a64;
+    border: 1px solid transparent;
+}
+
+form textarea, input[type="text"], input[type="email"], input[type="tel"], select {
+    width: 50%;
+    height: 25px
+}
+
+form textarea:focus, input:focus, select:focus {
+    background-color: #4e708c;
+    border: 1px solid #ffffff;
+    outline: none;
+}
+
+form textarea {
+    height: 100px
+}
+
+form select {
+    margin-top: 5px;
+    color: #ffffff;
+}
+
+form label[for="agreement"], label[for="female"], label[for="male"]{
+    display: inline;
+}
+
+form input[type="submit"] {
+    margin-top: 20px;
+    color: white;
+    text-transform: uppercase;
+    background-color: limegreen;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: chartreuse;
+    transition: all 0.5s;
+}
