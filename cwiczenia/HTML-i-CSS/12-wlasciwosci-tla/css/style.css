@@ -1,0 +1,8 @@
+#background-img {
+    background-color: azure;
+    background-image: url("../img/male.jpeg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+

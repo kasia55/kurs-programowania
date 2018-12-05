@@ -1,0 +1,19 @@
+#cat {
+    width: 200px;
+    border: 1px solid black;
+    margin: 10px;
+/*    float: left;*/
+    float: none;
+}
+
+#cat2 {
+    width: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    float: right;
+}
+
+p:last-child {
+    background-color: aliceblue;
+    clear: both;
+}

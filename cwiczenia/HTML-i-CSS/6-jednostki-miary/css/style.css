@@ -1,0 +1,29 @@
+.container {
+    font-size: 20px;
+}
+
+html {
+    font-size: 24px;
+}
+
+.container div {
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+
+.pixels {
+    font-size: 40px;
+}
+
+.em {
+/*    font-size: 3em;*/
+    font-size: 3rem; /* rem to 3 razy wielkość html */
+}
+
+.procent {
+    font-size: 50%;
+}
+
+.vh {
+    height: 6vh;
+}

@@ -1,0 +1,25 @@
+body {
+    background-color: yellow;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.predefined-colors {
+    background-color: azure;
+}
+
+.hexadecimal {
+    background-color: #000000;
+}
+
+.rgb {
+    background-color: rgb(150, 55, 200);
+}
+
+.rgba {
+    background-color: rgba(44, 64, 33, 0.4);
+} 

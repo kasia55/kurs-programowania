@@ -1,0 +1,18 @@
+.elementy-blokowe p {
+    background-color: yellow;
+    display: inline;
+}
+
+.elementy-liniowe span{
+    color: forestgreen;
+    display: block;
+}
+
+.lista-inline-block li {
+    background-color: yellowgreen;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+/*display: none - ukrywa*/
