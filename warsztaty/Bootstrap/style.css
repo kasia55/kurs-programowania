@@ -1,0 +1,59 @@
+#sekcja1 {
+    background-image: url("img/form-background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#sekcja2 {
+    background-color: white;
+    height: 50vh;
+}
+
+#sekcja3 {
+    background-color: #f8f8f8;
+    height: 50vh;
+}
+
+.container-sekcja1, .sekcja2-container, .sekcja3-container {
+    display: flex;
+    height: 100%;
+}
+
+#formularz {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    padding: 20px;
+}
+
+#sekcja1-lewo-olowek {
+    font-size: 3em;
+}
+
+h2 > p {
+    font-size: 15px;
+}
+
+input[type="submit"], .sekcja1-button, input[type="submit"]:focus, .sekcja1-button:focus {
+    background-color: #e38f42;
+    border: 1px solid #e38f42;
+    color: #fff;
+}
+
+#sekcja1-prawa {
+    color: #fff;
+}
+
+.fa-greater-than {
+    font-size: 0.6em;
+}
+
+.sekcja1-button-dowiedz, .sekcja1-button-dowiedz:focus {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+a {
+    color: #e38f42;
+}

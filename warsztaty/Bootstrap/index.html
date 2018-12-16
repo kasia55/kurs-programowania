@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-around">
+        <a class="navbar-brand" href="#">Klub podróżniczy</a>
+        <div class="d-flex flex-row">
+            <a class="navbar-brand" href="#">Dołącz do nas</a>
+            <a class="navbar-brand" href="#">Inspiracje</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+    </nav>
+
+    <section id="sekcja1">
+        <div class="container container-sekcja1 align-items-center">
+
+            <div class="row align-items-center">
+                <!-- lewa strona - formularz -->
+                <div class="col-lg-5">
+                    <div class="container" id="formularz">
+                        <div class="row align-items-center">
+                            <div class="col-9" id="sekcja1-lewo-naglowek">
+                                <h2>Dołącz do nas</h2>
+                                <p>Wypełnij zgłoszenie a członka klubu</p>
+                            </div>
+                            <div class="col-1" id="sekcja1-lewo-olowek">
+                                <i class="fas fa-pencil-alt"></i>
+                            </div>
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Imie i nazwisko">
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" name="telefon" id="telefon" placeholder="Telefon">
+                        </div>
+                        <div class="input-group mb-3">
+                            <textarea class="form-control" placeholder="Kilka słów o sobie"></textarea>
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="submit" class="form-control" value="Zapisz się!">
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                Wypełniając zgłoszenie wyrażasz zgodę na przetwarzanie danych zgodne z <a href="#">polityką
+                                    prywatności</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- strona prawa - swiat na wyciągnięcie ręki -->
+                <div class="col-lg-7" id="sekcja1-prawa">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col">
+                                <h2>Świat jest na wyciągnięcie ręki</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p>Poznaj ludzi, których łączy wspólna pasja do podróżowania. Przekonaj się, jak
+                                    wygląda życie bez granic</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-3">
+                                <button type="button" class="btn btn-primary sekcja1-button">Znajdź nas <i class="fas fa-greater-than"></i></button>
+                            </div>
+                            <div class="col-4">
+                                <button type="button" class="btn btn-primary sekcja1-button-dowiedz">Dowiedz się więcej
+                                    <i class="fal fa-lightbulb"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="sekcja2">
+        <div class="container sekcja2-container">
+            <div class="row align-items-center">
+                <div class="col-5">
+                    <!-- <video width="320" height="240" controls>
+                        <source src="https://vimeo.com/115014610" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video> -->
+                    <!-- <iframe src="https://player.vimeo.com/video/115014610" width="420" height="340" frameborder="0"
+                        webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+                    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/115014610"
+                            style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                            webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                    <script src="https://player.vimeo.com/api/player.js"></script>
+                </div>
+                <div class="col-7">
+                    <h3>Inspirujemy</h3>
+                    <p>Poznaj historie ludzi, którzy zrealizowali swoje marzenia.</p>
+                    <p>Podróżowanie pozwala poznać Świat i odkryć siebie. Spełniaj swoje marzenia i zdobywaj
+                        nowe pasje. Daj się ponieść przygodznie i dołącz do grona pasjonatów, którzy codziennie
+                        udowadniają, że nie ma rzeczy niemożliwych</p>
+                    <a href="#">Więcej historii</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sekcja3">
+        <div class="container sekcja3-container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <h3>O nas</h3>
+                    <p>Naszym głównym celem jest wymiana doświadczeń między podróżnikami podczas cyklicznych spotkań.
+                        Naszym największym kapitałem jest wiedza i zaangażowanie naszych członków.</p>
+                </div>
+                <div class="col">
+                    <h3>Kontakt</h3>
+                    <p>klub@podróżnika.pl</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
